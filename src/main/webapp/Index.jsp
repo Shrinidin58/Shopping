@@ -156,12 +156,12 @@ ul.topnav li a.dropbtn {
 			<li><a href="#" class="a" id="font">My order</a></li>
 
 
-			<li class="a" id="font" Search Product>
+			<li class="a" id="font" >
 				<form action="searchproduct" method="get">
-					Search Product: <input type="text" name="search"
-						required="required" /> <input type="submit" value="search">
+					Search Product:
+					 <input type="text" name="search"/>
+					 <input type="submit" value="search"/>
 				</form> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	</div>
 	</li>
 
 
@@ -169,5 +169,6 @@ ul.topnav li a.dropbtn {
 
 	</ul>
 
+	</div>
 </body>
 </html>

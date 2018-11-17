@@ -24,10 +24,7 @@ public class SearchController {
 	
 	final static Logger LOGGER = Logger.getLogger(SearchController.class);
 	
-	
-	
-	
-	@RequestMapping(path = "searchproduct", method = RequestMethod.GET)
+	@RequestMapping(path = "/searchproduct", method = RequestMethod.GET)
 	public String searchProduct(ModelMap map, String search) {
 		System.out.println("inside controller");
 		LOGGER.info("inside lot controller");
