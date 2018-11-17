@@ -41,12 +41,12 @@
 		<property name="driverClassName"
 			value="com.mysql.cj.jdbc.Driver" />
 		<property name="url"
-			value="jdbc:mysql://localhost:3306/lot_db?createDatabaseIfNotExist=true" />
+			value="jdbc:mysql://localhost:3306/shoppingcart_db?createDatabaseIfNotExist=true" />
 		<property name="username" value="root" />
-		<property name="password" value="root123" />
+		<property name="password" value="root" />
 	</bean>
 
-	<bean id="sessionFactory"
+	<bean id = sessionFactory
 		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocations">

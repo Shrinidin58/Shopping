@@ -29,9 +29,10 @@ public class SearchController {
 	
 	@RequestMapping(path = "searchproduct", method = RequestMethod.GET)
 	public String searchProduct(ModelMap map, String search) {
+		System.out.println("inside controller");
 		LOGGER.info("inside lot controller");
 		LOGGER.info(search);
-		
+		System.out.println("before calling dao method");
 		List<DetailsBean> detaisl = shopDao.search(search);
 		map.addAttribute("detailsBean", detaisl);
 		
